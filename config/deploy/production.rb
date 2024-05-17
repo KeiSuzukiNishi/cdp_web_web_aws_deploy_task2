@@ -51,7 +51,7 @@
 # ------------------------------------
 server "13.231.130.1",
   user: "ec2-user",
-  roles: %w{web app},
+  roles: %w{web db app},
   ssh_options: {
     user: "ec2-user", # overrides user setting above
     keys: %w(~/.ssh/aws_deploy_task2.pem),
