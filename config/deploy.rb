@@ -12,7 +12,7 @@ set :log_level, :info   # 8
 # after 'deploy:published', 'deploy:seed'   # 9
 after 'deploy:finished', 'deploy:restart'   # 10
 
-# namespace :deploy do
+namespace :deploy do
 #     desc 'Run seed'
 #     task :seed do
 #         on roles(:db) do
